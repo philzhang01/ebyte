@@ -2,7 +2,7 @@ import React from "react";
 
 import MenuItem from "../menu-item/menu-item";
 
-import "./directory.styles.scss";
+import "./directory.scss";
 
 class Directory extends React.Component {
   constructor() {
@@ -30,14 +30,16 @@ class Directory extends React.Component {
         },
         {
           title: "womens",
-          imageUrl: "https://i.ibb.co/GCCdy8t/womens.png",
+          imageUrl:
+            "https://bestaliproducts.com/wp-content/uploads/2018/08/best-aliexpress-women-clothing.png",
           size: "large",
           id: 4,
           linkUrl: ""
         },
         {
           title: "mens",
-          imageUrl: "https://i.ibb.co/R70vBrQ/men.png",
+          imageUrl:
+            "http://hespokestyle.com/wp-content/uploads/2017/06/best-street-style-london-collections-mens-fashion-week-spring-ss-18-june-2017-1-1200x800.jpg",
           size: "large",
           id: 5,
           linkUrl: ""
