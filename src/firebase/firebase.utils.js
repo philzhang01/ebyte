@@ -47,7 +47,7 @@ export const addCollectionsAndDocuments = async (
 
   const batch = firestore.batch();
   objectsToAdd.forEach(obj => {
-    //create random unique id, if no argument
+    //create random unique id, if no argument in doc()
     const newDocRef = collectionRef.doc();
     batch.set(newDocRef, obj);
   });
