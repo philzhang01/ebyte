@@ -1,4 +1,4 @@
-import React from "react";
+import React, { lazy, Suspense } from "react";
 import { Switch, Route, Redirect } from "react-router-dom";
 import { connect } from "react-redux";
 import { createStructuredSelector } from "reselect";
@@ -55,6 +55,15 @@ class App extends React.Component {
   }
 
   render() {
+    //const HomePage = lazy(() => import("./pages/homepage/homepage.component"));
+    // const ShopPage = lazy(() => import("./pages/shop/shop.component"));
+    // const SignInAndSignUpPage = lazy(() =>
+    //   import("./pages/sign-in-and-sign-up/sign-in-and-sign-up.component")
+    // );
+    // const CheckoutPage = lazy(() =>
+    //   import("./pages/checkout/checkout.component")
+    // );
+
     return (
       <div>
         <Header />
